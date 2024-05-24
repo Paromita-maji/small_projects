@@ -51,5 +51,5 @@ A simple cricket game simulation where users can play a virtual cricket match.
 5. Enjoy the match and try to win!
 
 ### Screenshot:
-![Cricket Game](cricket_game_screenshot.png)
+![Cricket Game]([cricket_game_screenshot.png](https://github.com/Paromita-maji/small_projects/blob/main/cricket%20game/ss/Screenshot%202024-05-24%20232545.png))
 
