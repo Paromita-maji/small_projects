@@ -25,7 +25,7 @@ A basic calculator web application that allows users to perform arithmetic opera
 5. Click "<--" to erase the last entered digit.
 
 ### Screenshot:
-![Calculator]([calculator_screenshot.png](https://github.com/Paromita-maji/small_projects/blob/main/calculator/ss/Screenshot%202024-05-24%20232458.png))
+![Calculator](https://github.com/Paromita-maji/small_projects/blob/main/calculator/ss/Screenshot%202024-05-24%20232458.png)
 
 ## 2. Cricket Game
 
