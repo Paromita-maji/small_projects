@@ -24,6 +24,8 @@ A basic calculator web application that allows users to perform arithmetic opera
 4. Click "C" to clear the calculator.
 5. Click "<--" to erase the last entered digit.
 
+For more information, visit [My Website](http://127.0.0.1:3000/calculator/index.html).
+
 ### Screenshot:
 ![Calculator](https://github.com/Paromita-maji/small_projects/blob/main/calculator/ss/Screenshot%202024-05-24%20232458.png)
 
