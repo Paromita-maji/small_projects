@@ -50,6 +50,8 @@ A simple cricket game simulation where users can play a virtual cricket match.
 4. The game will progress based on your actions.
 5. Enjoy the match and try to win!
 
+For more information, visit [My Website](http://127.0.0.1:3000/cricket%20game/index.html).
+
 ### Screenshot:
 ![Cricket Game](https://github.com/Paromita-maji/small_projects/blob/main/cricket%20game/ss/Screenshot%202024-05-24%20232545.png)
 
