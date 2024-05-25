@@ -57,3 +57,75 @@ For more information, visit [My Website](http://127.0.0.1:3000/cricket%20game/in
 ### Screenshot:
 ![Cricket Game](https://github.com/Paromita-maji/small_projects/blob/main/cricket%20game/ss/Screenshot%202024-05-24%20232545.png)
 
+
+# To-Do List App
+
+A simple and interactive To-Do List application built with HTML, CSS, and JavaScript. This app helps you keep track of your tasks and stay organized.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Persistent storage using local storage
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+You will need a web browser to run this app.
+
+## Usage
+
+1. **Add a Task:**
+
+    - Type your task in the input field.
+    - Click the "Add" button or press "Enter" to add the task to your list.
+
+2. **Complete a Task:**
+
+    - Click the checkbox next to a task to mark it as completed.
+
+3. **Delete a Task:**
+
+    - Click the "Delete" button next to a task to remove it from your list.
+
+## Code Overview
+
+### HTML
+
+The structure of the application is defined in the `index.html` file. It contains the following sections:
+
+- Header with the app title
+- Input field and add button for new tasks
+- List container for displaying tasks
+
+### CSS
+
+The styles are defined in the `styles.css` file. Key sections include:
+
+- General layout and styling
+- Task item styling
+- Completed task styling
+
+### JavaScript
+
+The functionality is implemented in the `scripts.js` file. It includes:
+
+- Adding new tasks
+- Marking tasks as completed
+- Deleting tasks
+- Storing tasks in local storage for persistence
+
+## Acknowledgements
+
+- Any third-party resources or libraries you used
+- Inspiration or references used
+
+For more information, visit [My Website](http://127.0.0.1:3000/To-Do-App/index.html).
+
+## Screenshots
+
+![To-Do List App Screenshot](https://github.com/Paromita-maji/small_projects/blob/main/To-Do-App/screenshot/Screenshot%202024-05-25%20212957.png)
