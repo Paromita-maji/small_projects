@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('https://cdn.wallpapersafari.com/2/4/JuZKmI.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    
+    
+    /* height: 88%; */
+    margin-top: 89px;
+}
+#heading{
+    color:rgb(146 13 84);;
+    margin-left: 117px;
+    text-align: center;
+    font-size: 51px;
+    font-style: italic;
+}
+.main{
+    margin-left: 840px;
+    margin-top: 98px;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 224px 158px 104px;;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left:-320px;
+}
+
+#textbar {
+    padding: 10px 5px;
+    font-size: 18px;
+    padding: 18px;
+    width: 149px;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #dd0176 0%, #3e0303 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+#datebox {
+    padding: 10px 5px;
+    font-size: 18px;
+    padding: 18px;
+    width: 149px;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #dd0176 0%, #3e0303 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.btn-dlt {
+    background-color: #fff;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #a50b78, #470783, #011019, #cd1598);
+    border-image-slice: 1;
+    color: #333;
+    padding: 11px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    margin-left: 88px;
+    width: 102px;
+
+}
+
+.btn-dlt::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(45deg, #700606, #774d09, #0e486c, #380e49);
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.btn-dlt:hover::before {
+    opacity: 1;
+}
+
+.btn-dlt:hover {
+    color: #fff;
+}
+
+
+.btn {
+    background-color: #fff;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #a50b78, #470783, #011019, #cd1598);
+    border-image-slice: 1;
+    color: #333;
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    margin-left: 83px;
+    width: 109px;
+
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(45deg, #601010, #825919, #08568a, #461b58);
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.btn:hover {
+    color: #fff;
+}
+.data{
+    margin-left: 50px;
+    font-size: 20px;
+    /*color: #2c3e50;
+            text-shadow: -1px -1px 0 #fff, 1px 1px 0 #b2bec3, 2px 2px 5px rgba(0, 0, 0, 0.1);
+            font-family: 'Arial', sans-serif;*/
+            color: #bd59a9;
+            text-shadow: 1px 1px 2px #000, 0 0 25px #666, 0 0 5px #fff;
+            font-family: 'Arial', sans-serif;
+}
+
+
