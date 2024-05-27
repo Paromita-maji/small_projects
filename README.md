@@ -164,6 +164,7 @@ For more information, visit [My Website](http://127.0.0.1:3000/loginregform/inde
 
 ## Screenshots
 
-![To-Do List App Screenshot](https://github.com/Paromita-maji/small_projects/tree/main/loginregform/ss)
+![Login-Form](https://github.com/Paromita-maji/small_projects/blob/main/loginregform/ss/Screenshot%202024-05-28%20021223.png)
 
+![Registration-Form](https://github.com/Paromita-maji/small_projects/blob/main/loginregform/ss/Screenshot%202024-05-28%20021236.png)
 
