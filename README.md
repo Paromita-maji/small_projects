@@ -129,3 +129,41 @@ For more information, visit [My Website](http://127.0.0.1:3000/To-Do-App/index.h
 ## Screenshots
 
 ![To-Do List App Screenshot](https://github.com/Paromita-maji/small_projects/blob/main/To-Do-App/screenshot/Screenshot%202024-05-25%20212957.png)
+
+
+# Login and Registration Form
+
+This project is a simple and stylish login and registration form with a modern design. It features form validation, responsive design, and animated transitions. Users can switch between login and registration forms seamlessly.
+
+## Features
+
+- Responsive design
+- Smooth transitions between login and registration forms
+- Form validation for email and password fields
+- Modern UI with purple-themed text shadows and buttons
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## Usage
+
+### Switching Between Forms
+
+- **Login Form**: By default, the login form is displayed. Users can enter their email and password to log in.
+- **Registration Form**: Click the "Register" link at the bottom of the login form to switch to the registration form. Users can enter their username, email, and password to register.
+
+### Form Validation
+
+- **Email**: The email field must be a valid email format.
+- **Password**: The password field is required and must be filled in.
+
+For more information, visit [My Website](http://127.0.0.1:3000/loginregform/index.html?email=paro%40gmail.com&password=2343435#).
+
+## Screenshots
+
+![To-Do List App Screenshot](https://github.com/Paromita-maji/small_projects/tree/main/loginregform/ss)
+
+
