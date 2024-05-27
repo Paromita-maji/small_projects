@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            
+                <p class="p">Logo</p>
+                <div class="navi">
+                <a class="nav" href="#">Home</a>
+                <a class="nav" href="#">About</a>
+                <a class="nav" href="#">Services</a>
+                <a class="nav" href="#">Contact</a>
+                <button class="active">Login</button>
+            </div>
+        </div>
+
+<div class="box">
+        <div class="form-container" id="login-form">
+            <form class="styled-form">
+              <h2 id="login">Login</h2>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password..." required>
+              </div>
+              
+              <span><input type="checkbox" class="checkbox"><label>Remember</label><a href="#">Forgot Password</a></span>
+
+                    <button class="btn">Login</button>
+                    
+                    <div class="bottom">
+                        <p>Don't have an account?</p>
+                        <a href="#" id="show-register">Register</a>
+                    </div>
+            </form>
+          </div>
+
+
+          <div class="form-reg" id="register-form" style="display: none;">
+            <form class="styled-form">
+              <h2 id="reg">Registration</h2>
+
+              <div class="form-group">
+                <label for="text">Username:</label>
+                <input type="text" id="email" name="text" placeholder="Enter your username..." required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password..." required>
+              </div>
+              
+              <span><input type="checkbox" class="checkbox"><label>I Agree with the</label><a href="#">Terms & Condition</a></span>
+
+                    <button class="btn">Register</button>
+                    
+                    <div class="bottom">
+                        <p>Already have an account?</p>
+                        <a href="#" id="show-login">Login</a>
+                    </div>
+            </form>
+          </div>
+
+
+            
+            
+        
+    </div>
+
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

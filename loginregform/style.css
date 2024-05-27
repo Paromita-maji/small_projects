@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width:500px;
+    height:500px;
+    background-image: url("https://rare-gallery.com/thumbs/915893-sunset-moon-phases-night-purple-background-shooting-stars.png");
+    background-size: cover;
+}
+.container{
+    
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    padding: 10%;
+}
+
+.navbar .p{
+    color:white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow:4px 4px 5px #bb1bcd;
+}
+
+.nav{
+   text-decoration: none;
+    margin:20px;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+.nav:hover{
+    color:#a81baf;
+}
+.active{
+    width: 71px;
+    height: 28px;
+    font-weight: 700;
+    margin-left: 13px;
+    border-radius: 5px;
+    border: 2px solid #a81baf;
+   /* box-shadow: 5px 3px 4px purple;*/
+   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4), 0 2px 4px rgba(0, 123, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.active:hover{
+    background-color: #4b0082;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6), 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.form-container{
+    padding:15px 15px;
+    width:400px;
+    height:500px;
+    border:3px solid rgba(255, 255, 255, 0.452);
+    margin: 51px 574px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(0,0,0);
+    
+}
+#login{
+    color:purple;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 46px;
+    margin-left: 150px;
+    text-shadow: 2px 2px 4px #591bcd;
+}
+
+#email ,#password{
+   text-decoration: none; 
+    border-bottom: 2px solid purple;
+    box-shadow: 0 0 10px rgb(201, 64, 201);
+    outline:none;
+    background: transparent;
+    margin-left:30px;
+    color:purple;
+}
+
+  
+  .styled-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #e1c7db;
+    margin-left:10px;
+    margin-top:6px;
+    font-weight: 800;
+  }
+  
+  .form-group input {
+    width: 300px;
+    padding: 0.75rem;
+    border: 3px solid #c022d5;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    /* border: none; */
+    outline: none;
+    border-bottom: purple;
+    margin-left: 21px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+.checkbox{
+    margin: 10px 13px;
+    color:purple;
+}
+.form-container span{
+    color:purple;
+    
+}
+.form-container span a{
+   margin-left:125px;
+   color:purple;
+    
+}
+.form-container span a:hover{
+color:white;
+}
+.btn{
+    margin-top: 34px;
+    width: 78px;
+    height: 30px;
+    margin-left: 151px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(128 7 126);
+    border: 3px solid purple;
+    border-radius: 6px;
+    cursor: pointer;
+   color:purple;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+
+  .btn:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+  }
+  .bottom{
+    margin-top:17px;
+    display:flex;
+
+  }
+  .bottom p {
+    color:purple;
+    margin-left:10px;
+  }
+  .bottom a{
+    margin-left: 69px;
+    color: purple;
+   transition: background-color 0.3s ease-in-out;
+  }
+  .bottom a:hover{
+    color:white;
+  }
+
+
+  .form-reg{
+    padding:15px 15px;
+    width:400px;
+    height:500px;
+    border:3px solid rgba(255, 255, 255, 0.452);
+    margin: 51px 574px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+#reg{
+    color: purple;
+    font-size: x-large;
+    font-weight: 800;
+    margin-top: 29px;
+    margin-left: 117px;
+    text-shadow: 2px 2px 4px #591bcd;
+}
+
+#email ,#password{
+   text-decoration: none; 
+    border-bottom: 2px solid purple;
+    box-shadow: 0 0 10px rgb(201, 64, 201);
+    outline:none;
+    background: transparent;
+    margin-left:30px;
+    color:purple;
+}
+
+  
+  .styled-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #e1c7db;
+    margin-left:10px;
+    margin-top:6px;
+    font-weight: 800;
+  }
+  
+  .form-group input {
+    width: 300px;
+    padding: 0.75rem;
+    border: 3px solid #c022d5;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    /* border: none; */
+    outline: none;
+    border-bottom: purple;
+    margin-left: 21px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+.checkbox{
+    margin: 10px 13px;
+    color:purple;
+}
+.form-reg span{
+    color:purple;
+    
+}
+
+.form-reg span a{
+   margin-left:77px;
+   color:purple;
+    
+}
+.form-reg span a:hover{
+color:white;
+}
+.btn{
+    margin-top: 34px;
+    width: 78px;
+    height: 30px;
+    margin-left: 151px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(128 7 126);
+    border: 3px solid purple;
+    border-radius: 6px;
+    cursor: pointer;
+   color:purple;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+
+  .btn:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+  }
+  .bottom{
+    margin-top:17px;
+    display:flex;
+
+  }
+  .bottom p {
+    color:purple;
+    margin-left:10px;
+  }
+  .bottom a{
+    margin-left: 69px;
+    color: purple;
+   transition: background-color 0.3s ease-in-out;
+  }
+  .bottom a:hover{
+    color:white;
+  }
